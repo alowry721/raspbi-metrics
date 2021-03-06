@@ -1,0 +1,4 @@
+gpiozero
+psutil
+mariadb
+rpi-gpio
