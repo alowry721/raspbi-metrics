@@ -2,19 +2,10 @@
 # add necessary ubuntu packages
 
 ## install mariadb
+https://github.com/alowry721/raspbi/blob/master/wikis/mariadb.md
 
 
-## set up environment 
- sql
-### add user
-
-### add database
-
-
-### setup tables
-
-
-# add myphpadmin
+## add myphpadmin
 Taken from https://pimylifeup.com/raspberry-pi-phpmyadmin/
 
 ## Set apache as server
