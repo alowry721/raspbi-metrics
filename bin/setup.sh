@@ -1,9 +1,11 @@
 
 
 apt update
+## install mariadb
 apt install mariadb-server
 
-~/py3_venv/bin/pip install gpiozero
-~/py3_venv/bin/pip install psutil
-~/py3_venv/bin/pip install mariadb
+## install necessary python packages
+pip install gpiozero
+pip install psutil
+pip install mariadb
 
