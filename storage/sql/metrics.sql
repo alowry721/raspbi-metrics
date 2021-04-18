@@ -1,7 +1,6 @@
 --Create User to interact with metrics database
 DROP USER IF EXISTS 'sa-metrics'@'localhost';
 CREATE USER 'sa-metrics'@'localhost' IDENTIFIED BY 'pass99**';
-CREATE USER 'sa-metrics'@'retropie' IDENTIFIED BY 'pass99**'
 --Give privileges to database
 GRANT ALL PRIVILEGES ON metrics. * TO 'sa-metrics'@'localhost';
 
