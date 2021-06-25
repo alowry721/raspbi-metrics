@@ -10,3 +10,9 @@ source py3_venv/bin/activate
 
 echo "alias py3-venv='source py3_venv/bin/activate'" >> ~/.bash_profile
 
+. .bash_profile
+py3-venv
+
+sudo apt-get install python3-dev
+pip install psutil
+pip install gpiozero

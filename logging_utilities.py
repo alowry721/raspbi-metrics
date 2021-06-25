@@ -22,7 +22,7 @@ def add_logging(args):
 
 def _add_logging_file(file_name):
     file_dir = os.path.abspath(os.path.dirname(__file__))
-    level = _get_log_level(verbose=True)
+    level = _get_log_level()
     fh = logging.FileHandler(os.path.join(file_dir, file_name))
     fh.setLevel(level)
     fh.setFormatter(formatter)
